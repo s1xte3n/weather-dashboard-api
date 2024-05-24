@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+// #2 Setup Mongoose and MongoDB
+// create mongoose model
 const weatherSchema = new mongoose.Schema({
     city: {
         type: String, 
